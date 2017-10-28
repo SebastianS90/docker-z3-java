@@ -1,7 +1,7 @@
 image: docker:latest
 
 variables:
-  DOCKER_DRIVER: overlay
+  DOCKER_DRIVER: overlay2
   IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
 
 services:
